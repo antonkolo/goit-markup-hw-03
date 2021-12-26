@@ -1,0 +1,247 @@
+/* variables */
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --additional-text-color: rgba(255, 255, 255, 0.6);
+  --primary-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
+  --additional-background-color: #2f303a;
+  --white-color: #ffffff;
+  --accent-color: #2196f3;
+  --additional-accent-color: #188ce8;
+}
+
+/* global styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--main-white-color);
+  color: var(--primary-text-color);
+}
+
+/* header */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+.header .piece {
+  color: var(--primary-text-color);
+}
+
+.header-nav,
+.header-contacts {
+  list-style-type: none;
+}
+
+.link {
+  font-weight: 500;
+  line-height: 1.09;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.header-nav .link {
+  color: var(--primary-text-color);
+}
+
+.header-contacts .link {
+  color: var(--secondary-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.link.current {
+  color: var(--accent-color);
+}
+
+/* ------INDEX.HTML------- */
+
+/* hero section */
+.hero {
+  background-color: var(--additional-background-color);
+  text-align: center;
+}
+
+.hero .title {
+  color: var(--white-color);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero .button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.hero .button:hover,
+.hero .button:visited {
+  background-color: var(--additional-accent-color);
+}
+
+/* approach serction */
+
+.approach-list {
+  list-style-type: none;
+}
+.approach .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.approach .description {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* services section */
+
+.services .title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.71;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.services .gallery {
+  list-style-type: none;
+}
+
+/* team section */
+
+.team {
+  background-color: var(--secondary-background-color);
+}
+
+.team-list {
+  list-style-type: none;
+}
+
+.team .title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.71;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-member {
+  background-color: var(--white-color);
+  text-align: center;
+}
+
+.team-member-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1875;
+}
+
+.team-member .description {
+  color: var(--secondary-text-color);
+  line-height: 1.1875;
+  letter-spacing: 0.03em;
+}
+
+/* ------PORTFOLIO.HTML------- */
+
+/* projects section */
+
+.projects .button {
+  background-color: var(--secondary-background-color);
+  font-weight: 500;
+  line-height: 1.625;
+  cursor: pointer;
+}
+
+.projects .button:hover,
+.projects .button:visited {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.buttons-list {
+  list-style-type: none;
+}
+
+.project-list {
+  list-style-type: none;
+}
+
+.projects .projects-link {
+  text-decoration: none;
+}
+
+.projects .title {
+  color: var(--primary-text-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects .type {
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--secondary-text-color);
+  letter-spacing: 0.03em;
+}
+
+/* footer */
+.footer {
+  background-color: var(--additional-background-color);
+}
+
+.footer .piece {
+  color: var(--white-color);
+}
+
+.footer-contacts {
+  list-style-type: none;
+  font-style: normal;
+}
+
+.footer-contacts .address {
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer-contacts .address:hover,
+.footer-contacts .address:focus {
+  color: var(--secondary-text-color);
+}
+
+.footer-contacts .link {
+  color: var(--additional-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.71;
+}
+
+.footer-contacts .link:hover,
+.footer-contacts .link:focus {
+  color: var(--white-color);
+}
