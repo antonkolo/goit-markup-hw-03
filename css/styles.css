@@ -43,7 +43,7 @@ img {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -96,6 +96,7 @@ img {
 .header-contacts {
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 
 .header-contacts > .item:first-child {
@@ -111,12 +112,15 @@ img {
 
 .header-nav {
   display: flex;
-  margin-right: 281px;
+  margin-right: -50px;
+}
+
+.header-nav .item {
+  margin-right: 50px;
 }
 
 .header-nav .link {
   color: var(--primary-text-color);
-  margin-right: 50px;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -243,7 +247,7 @@ img {
 
 .team {
   background-color: var(--secondary-background-color);
-  padding-top: 92px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -259,7 +263,7 @@ img {
   line-height: 1.71;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .team-member {
@@ -319,12 +323,15 @@ img {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  margin-right: -8px;
   margin-bottom: 50px;
 }
 
 .buttons-list .item {
   margin-right: 8px;
+}
+
+.buttons-list .item:last-child {
+  margin-right: 0px;
 }
 
 .project-list {
@@ -342,6 +349,9 @@ img {
 
 .projects-link .wrapper {
   padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .projects .projects-link {
@@ -383,7 +393,6 @@ img {
 .footer-contacts {
   list-style-type: none;
   font-style: normal;
-
   margin-bottom: -9px;
 }
 
