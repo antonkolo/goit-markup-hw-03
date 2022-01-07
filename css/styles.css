@@ -152,12 +152,6 @@ img {
   padding-bottom: 200px;
 }
 
-.hero-wrapper {
-  width: 696px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-}
-
 .hero .title {
   color: var(--white-color);
   font-size: 44px;
@@ -165,6 +159,9 @@ img {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  max-width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .hero .button {
